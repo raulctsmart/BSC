@@ -63,6 +63,18 @@
 	text-align: center;
 }
 
+.bton{
+		display: inline-block;
+	    background-color: red;
+	    color: white;
+	    text-decoration: none;
+	    font-weight: bold;
+	    padding: 10px 25px;
+	    transform: translateY(50%);
+	    border-radius: 30px;
+	    transition: transform .4s
+	}
+
 .about-content p a{
 	color: white;
 }
@@ -155,6 +167,7 @@ span{
 	.about-content{
 		display: flex;
 		justify-content: space-around;
+		font-size: 20px;
 	}
 
 	.about img{
